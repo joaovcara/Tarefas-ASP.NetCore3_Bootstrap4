@@ -51,7 +51,7 @@
       "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.CodeAnalysis.Analyzers.props": {}
         }
       },
       "Microsoft.CodeAnalysis.Common/3.3.1": {
@@ -6065,23 +6065,24 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.CodeAnalysis.Analyzers >= 2.9.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joao\\.nuget\\packages\\": {}
+    "C:\\Users\\Microserv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Projetos\\Tarefas\\Tarefas.csproj",
+      "projectUniqueName": "C:\\GitHub\\Tarefas-ASP.NetCore3_Bootstrap4\\Tarefas.csproj",
       "projectName": "Tarefas",
-      "projectPath": "B:\\Projetos\\Tarefas\\Tarefas.csproj",
-      "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-      "outputPath": "B:\\Projetos\\Tarefas\\obj\\",
+      "projectPath": "C:\\GitHub\\Tarefas-ASP.NetCore3_Bootstrap4\\Tarefas.csproj",
+      "packagesPath": "C:\\Users\\Microserv\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Tarefas-ASP.NetCore3_Bootstrap4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Microserv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6107,6 +6108,12 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.9.4, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"

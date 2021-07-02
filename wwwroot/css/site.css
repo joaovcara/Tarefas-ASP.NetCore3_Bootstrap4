@@ -29,9 +29,9 @@ a {
 }
 
 .bg-login-blue {
-    background-image: url("../img/Background_login.jpg");
+/*    background-image: url("../img/Background_login.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     background-color: #020127;
 }
 
@@ -79,4 +79,20 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/*Botões*/
+.btn-blue {
+    background-color: #020127;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #020127;
+}
+
+/*Imagens*/
+.img-login {
+    width: 150px;
 }
