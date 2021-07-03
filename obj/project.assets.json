@@ -6070,19 +6070,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Microserv\\.nuget\\packages\\": {}
+    "C:\\Users\\Joao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Tarefas-ASP.NetCore3_Bootstrap4\\Tarefas.csproj",
+      "projectUniqueName": "B:\\Projetos\\Tarefas\\Tarefas.csproj",
       "projectName": "Tarefas",
-      "projectPath": "C:\\GitHub\\Tarefas-ASP.NetCore3_Bootstrap4\\Tarefas.csproj",
-      "packagesPath": "C:\\Users\\Microserv\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Tarefas-ASP.NetCore3_Bootstrap4\\obj\\",
+      "projectPath": "B:\\Projetos\\Tarefas\\Tarefas.csproj",
+      "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
+      "outputPath": "B:\\Projetos\\Tarefas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Microserv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
