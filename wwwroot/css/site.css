@@ -112,6 +112,10 @@ body {
     opacity: 0.2;
 }
 
+.img-navbar-menu{
+    max-height: 45px;
+}
+
 /*Responsividade*/
 @media (max-width: 767px) {
     #login-left {
@@ -123,5 +127,9 @@ body {
         flex: none;
         max-width: 100%;
     }
-}
 
+    #user-navbar {
+        visibility: hidden;
+        display: none;
+    }
+}

@@ -219,3 +219,4 @@ B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.CopyComplete
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.dll
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.pdb
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.genruntimeconfig.cache
+B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.AssemblyReference.cache
