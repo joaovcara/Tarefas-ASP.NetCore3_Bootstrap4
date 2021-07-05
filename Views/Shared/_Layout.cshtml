@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+<body class="bg-light">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-login-blue border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="img-navbar-menu" src="~/img/bootstrap-stack.png" alt="Logo" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="bi bi-list btn-menu-response"></i>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item pl-5">                            
+                        <li class="nav-item pl-5">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-columns-gap"></i> Dashboard</a>
                         </li>
                         <li class="nav-item pl-5">
@@ -32,17 +32,31 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy"><i class="bi bi-people"></i> Agentes</a>
                         </li>
                         <li class="nav-item pl-5">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy"><i class="bi bi-window"></i> Projetos</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Projetos" asp-action="Index"><i class="bi bi-window"></i> Projetos</a>
                         </li>
                     </ul>
                 </div>
 
-                <a id="user-navbar" class="text-light text-decoration-none" href="#">Olá, João Vitor <i class="bi bi-person-circle pl-2"></i></a>
+                @*<a id="user-navbar" class="text-light text-decoration-none" href="#">Olá, João Vitor <i class="bi bi-person-circle pl-2"></i></a>*@
+
+                <div id="user-navbar" class="btn-group">
+                    <a class="text-light bg-transparent dropdown-item cursor-pointer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Olá, João Vitor <i class="bi bi-person-circle pl-2"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item conteudo_drop-color" href="#">Empresa</a>
+                        <a class="dropdown-item conteudo_drop-color" href="#">Configurações</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item conteudo_drop-color" asp-controller="Home" asp-action="Login">Sair</a>
+                    </div>
+                </div>
+
+
             </div>
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3 m-3">
             @RenderBody()
         </main>
     </div>

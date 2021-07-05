@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Tarefas.Models.Projetos>
+
+@{
+    ViewData["Title"] = "Projetos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row align-items-center">
+    <h2>Projetos</h2>
+    <div class="pl-3">
+        <a asp-action="Create" class="btn btn-sm btn-blue pl-4 pr-4">NOVO</a>
+    </div>
+</div>
+
+<div class="row justify-content-center pt-3">
+    <table class="table table-sm shadow-sm">
+        <thead>
+            <tr class="bg-login-blue text-light ">
+                <th class="border-0 font-weight-normal">Título</th>
+                <th class="border-0 font-weight-normal">Descrição</th>
+                <th class="text-center border-0 font-weight-normal" style="width:100px">Ações</th>
+            </tr>   
+        </thead>
+        <tbody>
+            @*@foreach (var item in Model)
+        {*@
+            <tr class="border-primary bg-white">
+                <td class="border-right border-bottom">Sistema de gestão de projetos</td>
+                <td class="border-right border-bottom">Sistema para controle de chamados, e solicitações para desenvolvimento do sistema</td>
+                <td class="text-center border-bottom">
+                    <a href="@Url.Action("Editar", "Projetos")"><i class="bi bi-pencil-square btn-edit"></i></a>
+                    <a href="@Url.Action("Excluir", "Projetos")"><i class="bi bi-trash btn-trash"></i></a>
+                    <a href="@Url.Action("Imprimir", "Projetos")"><i class="bi bi-printer btn-print"></i></a>
+                    <a href="@Url.Action("Enviar", "Projetos")"><i class="bi bi-envelope btn-send"></i></a>
+                </td>
+            </tr>
+            <tr class="border-primary bg-white">
+                <td class="border-right border-bottom">Sistema de gestão de projetos</td>
+                <td class="border-right border-bottom">Sistema para controle de chamados, e solicitações para desenvolvimento do sistema</td>
+                <td class="text-center border-bottom">
+                    <a href="@Url.Action("Editar", "Projetos")"><i class="bi bi-pencil-square btn-edit"></i></a>
+                    <a href="@Url.Action("Excluir", "Projetos")"><i class="bi bi-trash btn-trash"></i></a>
+                    <a href="@Url.Action("Imprimir", "Projetos")"><i class="bi bi-printer btn-print"></i></a>
+                    <a href="@Url.Action("Enviar", "Projetos")"><i class="bi bi-envelope btn-send"></i></a>
+                </td>
+            </tr>
+            <tr class="border-primary bg-white">
+                <td class="border-right border-bottom">Sistema de gestão de projetos</td>
+                <td class="border-right border-bottom">Sistema para controle de chamados, e solicitações para desenvolvimento do sistema</td>
+                <td class="text-center border-bottom">
+                    <a href="@Url.Action("Editar", "Projetos")"><i class="bi bi-pencil-square btn-edit"></i></a>
+                    <a href="@Url.Action("Excluir", "Projetos")"><i class="bi bi-trash btn-trash"></i></a>
+                    <a href="@Url.Action("Imprimir", "Projetos")"><i class="bi bi-printer btn-print"></i></a>
+                    <a href="@Url.Action("Enviar", "Projetos")"><i class="bi bi-envelope btn-send"></i></a>
+                </td>
+            </tr>
+            <tr class="border-primary bg-white">
+                <td class="border-right border-bottom">Sistema de gestão de projetos</td>
+                <td class="border-right border-bottom">Sistema para controle de chamados, e solicitações para desenvolvimento do sistema</td>
+                <td class="text-center border-bottom">
+                    <a href="@Url.Action("Editar", "Projetos")"><i class="bi bi-pencil-square btn-edit"></i></a>
+                    <a href="@Url.Action("Excluir", "Projetos")"><i class="bi bi-trash btn-trash"></i></a>
+                    <a href="@Url.Action("Imprimir", "Projetos")"><i class="bi bi-printer btn-print"></i></a>
+                    <a href="@Url.Action("Enviar", "Projetos")"><i class="bi bi-envelope btn-send"></i></a>
+                </td>
+            </tr>
+            @*}*@
+        </tbody>
+    </table>
+</div>

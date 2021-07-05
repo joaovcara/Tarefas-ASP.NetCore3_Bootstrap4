@@ -192,6 +192,7 @@ B:\Projetos\Tarefas\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces
 B:\Projetos\Tarefas\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 B:\Projetos\Tarefas\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 B:\Projetos\Tarefas\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.AssemblyReference.cache
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.AssemblyInfoInputs.cache
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.AssemblyInfo.cs
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.CoreCompileInputs.cache
@@ -207,6 +208,7 @@ B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.RazorCoreGenerate.cache
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Projetos\Index.cshtml.g.cs
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -219,4 +221,3 @@ B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.CopyComplete
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.dll
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.pdb
 B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.genruntimeconfig.cache
-B:\Projetos\Tarefas\obj\Debug\netcoreapp3.1\Tarefas.csproj.AssemblyReference.cache

@@ -5,6 +5,25 @@ html, body {
     height: 100%;
 }
 
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th {
+    padding: 1em;
+    background: #1B0432;
+    border-bottom: 2px solid white;
+    color: #fff;
+}
+
+td {
+    padding: 1em;
+    background: #fff;
+    border-bottom: 1px solid white;
+}
+
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -26,13 +45,6 @@ a {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
-}
-
-.bg-login-blue {
-    background-image: url("../img/Background_login.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #0E0127;
 }
 
 /* Sticky footer styles
@@ -84,20 +96,61 @@ body {
     line-height: 60px; /* Vertically center the text there */
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.conteudo_drop-color:hover {
+    background-color: #D9D9D9;
+    color: #212529 !important;
+}
+
 /*Cores*/
 .color-blue {
-    color: #0E0127;
+    color: #1B0432;
+}
+
+.btn-edit {
+    color: dodgerblue;
+}
+
+.btn-trash {
+    color: red;
+}
+
+.btn-print {
+    color: grey;
+}
+
+.btn-send {
+    color: darkorange;
+}
+
+.btn-menu-response {
+    color: white;
+}
+
+.bg-login-blue {
+    background-image: url("../img/Background_login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1B0432;
 }
 
 /*Botões*/
 .btn-blue {
-    background-color: #0E0127;
+    background-color: #1B0432;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #32135F;
     color: #fff;
 }
 
 .btn-white {
     background-color: #fff;
-    color: #0E0127;
+    color: #1B0432;
 }
 
 /*Imagens*/
@@ -112,7 +165,11 @@ body {
     opacity: 0.2;
 }
 
-.img-navbar-menu{
+.img-modal {
+    width: 150px;
+}
+
+.img-navbar-menu {
     max-height: 45px;
 }
 
